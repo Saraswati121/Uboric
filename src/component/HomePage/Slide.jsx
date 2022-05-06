@@ -1,14 +1,11 @@
 import React from "react";
 import './slide.css'
 const colors = [
-    {
-        url:"https://www.uboric.com/wp-content/uploads/2021/11/health-care.jpg"
-    },
-    {
-        url:"https://www.uboric.com/wp-content/uploads/2021/11/grocery.jpg"
-    }
+  "https://www.uboric.com/wp-content/uploads/2021/11/grocery.jpg",
+  "https://www.uboric.com/wp-content/uploads/2021/11/health-care.jpg",
+  "https://www.uboric.com/wp-content/uploads/2021/11/clothing.jpg"
 ];
-const delay = 2500;
+const delay = 2000;
 // "#0088FE", "#00C49F", "#FFBB28"
 export function Slide() {
   const [index, setIndex] = React.useState(0);
@@ -47,11 +44,13 @@ export function Slide() {
             className="slide"
             key={index}
             style={{ backgroundColor }}
-          ></div>
+          >
+            <img src={backgroundColor}/>
+          </div>
         ))}
       </div>
 
-      <div className="slideshowDots">
+      {/* <div className="slideshowDots">
         {colors.map((_, idx) => (
           <div
             key={idx}
@@ -59,9 +58,11 @@ export function Slide() {
             onClick={() => {
               setIndex(idx);
             }}
-          ></div>
+          > */}
+            {/* <img src="" alt="" /> */}
+          {/* </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

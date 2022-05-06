@@ -1,13 +1,12 @@
 
 import './App.css';
-// import {Home} from './component/HomePage/Home.jsx'
-import {Slide} from "./component/product/Slide"
+import {Home} from './component/HomePage/Home.jsx'
 
 function App() {
   return (
     <div className="App">
-       {/* <Home/> */}
-       <Slide/>
+       <Home/>
+      
     </div>
   );
 }
