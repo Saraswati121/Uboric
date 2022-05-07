@@ -1,0 +1,45 @@
+.productcatagory {
+  margin-top: 50px;
+  text-align: left;
+  height: 150px;
+  width: 250px;
+  overflow-y: scroll;
+  margin-left: 20px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.all-in {
+  display: flex;
+  gap: 100px;
+}
+.footware {
+  margin-top: 20px;
+  display: flex;
+  gap: 60px;
+}
+.footware > div {
+  height: 350px;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding-bottom: 20px;
+}
+.footware > div img {
+  height: 300px;
+  width: 350px;
+}
+.grid-sneaker {
+  display: grid;
+  grid-template-columns: 2fr, 4fr;
+
+  gap: 40px;
+  margin-top: 30px;
+}
+.grid-sneaker > div > img {
+  height: 200px;
+  width: 200px;
+}
+.grid-dis {
+  display: grid;
+  grid-template-columns: repeat(4fr, 250px);
+  grid-template-rows: 250px;
+}
