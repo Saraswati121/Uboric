@@ -1,12 +1,15 @@
 
 import './App.css';
-import {Home} from './component/HomePage/Home.jsx'
+
+// import {Home} from './component/HomePage/Home.jsx'
+import MainRoutes from './component/Navbar/MainRoutes'
 
 function App() {
   return (
     <div className="App">
-       <Home/>
-      
+      <MainRoutes/>
+       {/* <Home/> */}
+  
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import "./home.css"
 import {Slide} from "./Slide"
+
 export const Home = () => {
+
   return (
     <div>
           <Slide/>
-
       <div className='first'>
       <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png" alt=''/>
       <h1 >KITCHEN WARE</h1>

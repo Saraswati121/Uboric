@@ -1,5 +1,5 @@
 import React from 'react'
-import Styled from "./Style.module.css" 
+import Styled from "../Navbar/Style.module.css" 
 const FooterAbove = () => {
   return (
     

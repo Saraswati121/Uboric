@@ -5,7 +5,7 @@ const colors = [
   "https://www.uboric.com/wp-content/uploads/2021/11/health-care.jpg",
   "https://www.uboric.com/wp-content/uploads/2021/11/clothing.jpg"
 ];
-const delay = 2000;
+const delay = 3000;
 // "#0088FE", "#00C49F", "#FFBB28"
 export function Slide() {
   const [index, setIndex] = React.useState(0);
