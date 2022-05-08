@@ -1,0 +1,12 @@
+.s{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: rgb(224, 216, 216);
+}
+.L{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    margin: 1%;
+}
