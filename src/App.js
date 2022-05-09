@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import "./App.css";
 import Main from "./component/HomePage/Main";
 
@@ -14,12 +13,4 @@ function App() {
     </div>
   );
 }
-=======
-import React from "react";
-
-const App = () => {
-  return <div>Hii</div>;
-};
->>>>>>> Stashed changes
-
 export default App;

@@ -1,5 +1,5 @@
 import React from "react";
-<<<<<<< Updated upstream
+
 import Footer from "../footer/Footer";
 import FooterAbove from "../footer/FooterAbove";
 import Baneer from "../Navbar/Baneer";
@@ -7,24 +7,14 @@ import MainRoutes from "../Navbar/MainRoutes";
 import Navbar from "../Navbar/Navbar";
 import "./home.css";
 import { Slide } from "./Slide";
-=======
-import "./home.css";
-import { Slide } from "./Slide";
-
-import Footer from "../footer/Footer";
-import Navbar from "../Navbar/Navbar";
-import "./home.css";
->>>>>>> Stashed changes
 
 export const Home = () => {
   return (
     <div>
-<<<<<<< Updated upstream
       <Baneer />
       <Navbar />
       {/* <MainRoutes /> */}
-=======
->>>>>>> Stashed changes
+
       <Slide />
       <div className="first">
         <img
@@ -266,10 +256,9 @@ export const Home = () => {
         <h3> ✔ Multiple Payment Options:</h3>
         <h3> ✔ Order History:</h3>
       </div>
-<<<<<<< Updated upstream
+
       <FooterAbove />
-=======
->>>>>>> Stashed changes
+
       <Footer />
     </div>
   );
