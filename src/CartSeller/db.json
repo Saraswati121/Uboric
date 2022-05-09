@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstName": "Karina",
+      "lastName": "Khairnar",
+      "userName": "karina",
+      "email": "karinakhairnar@gmail.com",
+      "confirmMail": "karinakhairnar@gmail.com",
+      "venderName": "khd",
+      "panNumber": "123456",
+      "gstNumber": "123456",
+      "contactNumber": "123456789",
+      "id": 2
+    },
+    {
+      "firstName": "Karina",
+      "lastName": "Khairnar",
+      "userName": "karina",
+      "email": "karinakhairnar@gmail.com",
+      "confirmMail": "karinakhairnar@gmail.com",
+      "venderName": "khd",
+      "panNumber": "123456789",
+      "gstNumber": "12358",
+      "contactNumber": "1234686",
+      "id": 3
+    }
+  ]
+}

@@ -1,29 +1,29 @@
-import React, { useState, useEffect } from 'react'
-import { Sneaker } from '../Api/data'
-import Sneakermap from './Sneakermap'
-import { Product, Product1, Flex } from './styled'
-import Productcatagory from './Productcatagory'
-import Nodata from './Nodata'
+import React, { useState, useEffect } from "react";
+import { Sneaker } from "../Api/data";
+import Sneakermap from "./Sneakermap";
+import { Product, Product1, Flex } from "./styled";
+import Productcatagory from "./Productcatagory";
+import Nodata from "./Nodata";
 const SneakerProduct = () => {
-  let [data, setElem] = useState([])
+  let [data, setElem] = useState([]);
   const filterdata = (data) => {
-    let datas = Sneaker.filter((ele) => ele.price < data)
+    let datas = Sneaker.filter((ele) => ele.price < data);
     // console.log(datas);
-    setElem(datas)
-  }
+    setElem(datas);
+  };
   useEffect(() => {
-    setElem(Sneaker)
-  }, [])
-  console.log(data)
+    setElem(Sneaker);
+  }, []);
+  console.log(data);
   return (
     <>
       <hr />
       <h1
         style={{
-          color: 'green',
-          textDecoration: 'underline',
-          fontFamily: 'sans-serif',
-          letterSpacing: '5px',
+          color: "green",
+          textDecoration: "underline",
+          fontFamily: "sans-serif",
+          letterSpacing: "5px",
         }}
       >
         Sneaker
@@ -43,7 +43,7 @@ const SneakerProduct = () => {
         )}
       </Flex>
     </>
-  )
-}
+  );
+};
 
-export default SneakerProduct
+export default SneakerProduct;
