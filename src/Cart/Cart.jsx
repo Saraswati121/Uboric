@@ -4,7 +4,9 @@ import "./cart.css";
 import CartItems from "./CartItems";
 import { Grid } from "../category/style/mens.styled";
 import Navbar from "../component/Navbar/Navbar";
+import { useNavigate } from "react-router-dom";
 const Cart = () => {
+  const navigate = useNavigate();
   const [elem, setElem] = useState([]);
   const [count, setCount] = useState(0);
   const [prices, setPrices] = useState(0);
@@ -81,7 +83,9 @@ const Cart = () => {
                 <h3>
                   Total: <span style={{ color: "green" }}>{prices}</span>{" "}
                 </h3>
-                <button>Proceed To Checkout - </button>
+                <button onClick={() => navigate("/checkout")}>
+                  Proceed To Checkout -
+                </button>
               </div>
             </div>
           </div>

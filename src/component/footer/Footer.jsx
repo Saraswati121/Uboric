@@ -1,9 +1,8 @@
-
 import React from "react";
 import styled from "styled-components";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
-import Styled from "../Navbar/Style.module.css" 
+import Styled from "../Navbar/Style.module.css";
 import { Link } from "react-router-dom";
 
 const FooterDiv = styled.div`
@@ -33,7 +32,7 @@ const Fotdiv = styled.div`
 
 const Footer = () => {
   return (
-    <FooterDiv>
+    <FooterDiv style={{ padding: "0px" }}>
       <div style={{ textAlign: "center", marginTop: "60px" }}>
         <FooterImg
           src="https://www.uboric.com/wp-content/uploads/2020/08/google-play1.png"
@@ -103,7 +102,7 @@ const Footer = () => {
         <Fotdiv id={Styled.divho1}>
           <a
             href="https://www.facebook.com/Uboricllp/"
-            style={{ color: "black" }}
+            style={{ color: "black", padding: "0px" }}
           >
             <FaFacebookF />
           </a>

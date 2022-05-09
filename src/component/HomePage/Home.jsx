@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../footer/Footer";
+import FooterAbove from "../footer/FooterAbove";
 import Baneer from "../Navbar/Baneer";
 import MainRoutes from "../Navbar/MainRoutes";
 import Navbar from "../Navbar/Navbar";
@@ -251,6 +253,8 @@ export const Home = () => {
         <h3> ✔ Multiple Payment Options:</h3>
         <h3> ✔ Order History:</h3>
       </div>
+      <FooterAbove />
+      <Footer />
     </div>
   );
 };

@@ -71,7 +71,7 @@ const Navbar = () => {
                 color: "rgb(30,81,108)",
               }}
             >
-              <Link to="/cart" style={{ color: "rgb(30,81,108)" }}>
+              <Link to="/signUp" style={{ color: "rgb(30,81,108)" }}>
                 <MdAccountCircle
                   id={Styled.navdiv}
                   style={{

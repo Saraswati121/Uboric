@@ -40,7 +40,7 @@ const Seller = () => {
   return (
     <>
       <Navbar />
-      <div className="seller">
+      <div className="seller" style={{ paddingLeft: "8px", margin: "auto" }}>
         <div className="intro">
           <h1>Seller</h1>
           <h4>

@@ -23,7 +23,7 @@ const Menu = () => {
       <Link style={{ textDecoration: "none", color: "black" }} to="/womens">
         <div>WOMENS</div>
       </Link>
-      <Link style={{ textDecoration: "none", color: "black" }} to="/chappal">
+      <Link style={{ textDecoration: "none", color: "black" }} to="/footware">
         <div>FOOTWARE</div>
       </Link>
       {/* <Link style={{ textDecoration: "none", color: "black" }} to="/merchant">

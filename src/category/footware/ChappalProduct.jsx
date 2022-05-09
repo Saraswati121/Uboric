@@ -18,7 +18,6 @@ const ChappalProduct = () => {
   // console.log(data);
   return (
     <>
-      <Navbar />
       <hr />
       <h1
         style={{
