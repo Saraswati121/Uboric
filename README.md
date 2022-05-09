@@ -9,3 +9,6 @@ TECHNOLOGIES WE USED IN THIS PROJECT:
 react-redux React-router-dom styled-components javascript
 
 I hope I am not presenting you with so many snippets. The snippets attached above are just some parts of what we have made so that you could compare them with the actual website.
+
+
+https://medium.com/@karinakhairnar/uboric-com-clone-4543c72bbfe9
