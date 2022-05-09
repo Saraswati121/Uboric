@@ -1,19 +1,10 @@
-<<<<<<< Updated upstream
-import React from 'react'
-import styled from 'styled-components'
-import { FaFacebookF } from 'react-icons/fa';
-import { BsInstagram } from 'react-icons/bs';
-import Styled from "../Navbar/Style.module.css" 
-import {Link} from "react-router-dom"
 
-=======
 import React from "react";
 import styled from "styled-components";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
-import Styled from "./Style.module.css";
+import Styled from "../Navbar/Style.module.css" 
 import { Link } from "react-router-dom";
->>>>>>> Stashed changes
 
 const FooterDiv = styled.div`
   height: 400px;

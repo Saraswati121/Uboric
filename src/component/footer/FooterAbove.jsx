@@ -1,10 +1,8 @@
-<<<<<<< Updated upstream
+
 import React from 'react'
 import Styled from "../Navbar/Style.module.css" 
-=======
-import React from "react";
-import Styled from "./Style.module.css";
->>>>>>> Stashed changes
+
+
 const FooterAbove = () => {
   return (
     <div>

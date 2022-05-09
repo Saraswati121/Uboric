@@ -32,7 +32,7 @@ const Navinput = styled.input`
 const Navbar = () => {
   return (
     <div>
-      <Baneer />
+     
       <NavBarStyled style={{ padding: "10px" }}>
         <div style={{ padding: "20px" }}>
           <div style={{ display: "flex" }}>

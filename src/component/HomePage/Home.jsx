@@ -1,41 +1,18 @@
-<<<<<<< Updated upstream
+
 import React from 'react'
 import "./home.css"
 import {Slide} from "./Slide"
 
-=======
-import React from "react";
-import Footer from "../footer/Footer";
-import Navbar from "../Navbar/Navbar";
-import "./home.css";
 
-import { Slide } from "./Slide";
->>>>>>> Stashed changes
 export const Home = () => {
 
   return (
     <div>
-<<<<<<< Updated upstream
           <Slide/>
       <div className='first'>
       <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png" alt=''/>
       <h1 >KITCHEN WARE</h1>
       <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png" alt=''/>
-=======
-      <Navbar />
-      <Slide />
-
-      <div className="first">
-        <img
-          src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png"
-          alt=""
-        />
-        <h1>KITCHEN WARE</h1>
-        <img
-          src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png"
-          alt=""
-        />
->>>>>>> Stashed changes
       </div>
 
       <div className="sec">
@@ -66,7 +43,6 @@ export const Home = () => {
           alt=""
         />
         <h1>
-          {" "}
           OTHER <br /> CATEGORIES
         </h1>
         <img
@@ -266,7 +242,6 @@ export const Home = () => {
         <h3> ✔ Multiple Payment Options:</h3>
         <h3> ✔ Order History:</h3>
       </div>
-      <Footer />
     </div>
   );
 };
