@@ -9,4 +9,7 @@ TECHNOLOGIES WE USED IN THIS PROJECT:
 react-redux React-router-dom styled-components javascript
 
 I hope I am not presenting you with so many snippets. The snippets attached above are just some parts of what we have made so that you could compare them with the actual website.
-<img src="https://drive.google.com/file/d/1PkEZdQtTW1ihtGJYkVgEOhwiODXMFY33/view?usp=sharing"/>
+<p align="center">
+  <img src="https://drive.google.com/file/d/1PkEZdQtTW1ihtGJYkVgEOhwiODXMFY33/view?usp=sharing" width="350" title="hover text">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p>
