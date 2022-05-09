@@ -6,6 +6,8 @@ import Womens from "../../category/womens/Womens";
 import MainRoutes from "../Navbar/MainRoutes";
 import Cart from "../../Cart/Cart";
 import { Home } from "./Home";
+import Seller from "../../Cart/Seller";
+import Form from "../../signup/Form";
 const Main = () => {
   return (
     <>
@@ -16,6 +18,8 @@ const Main = () => {
         <Route path="/womens" element={<Womens />} />
         <Route path="/chappal" element={<ChappalProduct />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/seller" element={<Seller />} />
+        <Route path="/signUp" element={<Form />} />
       </Routes>
     </>
   );

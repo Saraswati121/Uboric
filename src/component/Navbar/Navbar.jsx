@@ -8,7 +8,7 @@ import Baneer from "./Baneer";
 import Styled from "./Style.module.css";
 import { Link } from "react-router-dom";
 import MainRoutes from "./MainRoutes";
-
+import { useNavigate } from "react-router-dom";
 const NavBarStyled = styled.div`
   width: 100%;
   display: flex;
@@ -31,6 +31,7 @@ const Navinput = styled.input`
 `;
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div>
@@ -84,6 +85,7 @@ const Navbar = () => {
               <FaCartPlus
                 id={Styled.navdiv}
                 style={{ height: "60px", width: "35px", cursor: "pointer" }}
+                onClick={() => navigate("/cart")}
               />
             </div>
           </div>

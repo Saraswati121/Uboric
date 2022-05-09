@@ -1,15 +1,6 @@
 {
   "CardItem": [
     {
-      "img": "https://www.uboric.com/wp-content/uploads/2022/03/181.jpg",
-      "title": "2 piece jacket dress set",
-      "price": 2799,
-      "offer": "-17%",
-      "id": "238141b1-b77c-4e03-b27e-aeca5253bb70",
-      "breakPrice": 16464,
-      "items": 1
-    },
-    {
       "img": "https://www.uboric.com/wp-content/uploads/2022/03/456.jpg",
       "title": "bandhej dhoti set",
       "price": 2899,
@@ -25,6 +16,15 @@
       "offer": "-17%",
       "id": "b25cce2b-60bd-4142-9259-e2a05cbf8a19",
       "breakPrice": 14111,
+      "items": 4
+    },
+    {
+      "img": "https://www.uboric.com/wp-content/uploads/2022/03/101.jpg",
+      "title": "aquamarine cotton suit set ",
+      "price": 2899,
+      "offer": "-17%",
+      "id": "53bd1b65-e532-4d58-8751-ee075f7845a9",
+      "breakPrice": 17052,
       "items": 1
     }
   ]

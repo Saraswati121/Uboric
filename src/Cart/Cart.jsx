@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 // import { Navigate } from "react-router-dom";
-// import "./cart.css";
+import "./cart.css";
 import CartItems from "./CartItems";
 import { Grid } from "../category/style/mens.styled";
+import Navbar from "../component/Navbar/Navbar";
 const Cart = () => {
   const [elem, setElem] = useState([]);
   const [count, setCount] = useState(0);
@@ -24,7 +25,7 @@ const Cart = () => {
     setCount(count + el);
     fettchs();
   };
-  console.log(count);
+  // console.log(count);
   const handleDelet = (id) => {
     fetch(`http://localhost:8080/CardItem/${id}`, {
       method: "DELETE",
@@ -51,49 +52,52 @@ const Cart = () => {
   }, []);
   //   console.log()
   return (
-    <Grid>
-      <div className="grids">
-        <div className="cart">
-          <div className="intro">
-            <h1>Cart products</h1>
-            <h4>
-              <a href="#">Home</a>----- Cart
-            </h4>
-          </div>
-          <button className="offer">Amazing Offers on Checkout</button>
-
-          <div className="fetchdata">
-            <div className="left">
-              <div className="data">
-                {/* <img></img> */}
-                <h4>Product</h4>
-                <h4>Price:{prices}</h4>
-                <h4>Quantity:{elem.length}</h4>
-                <h4>Subtotal</h4>
-              </div>
-              <button>UPGRADE CART</button>
+    <>
+      <Navbar />
+      <Grid>
+        <div className="grids">
+          <div className="cart">
+            <div className="intro">
+              <h1>Cart products</h1>
+              <h4>
+                <a href="#">Home</a>----- Cart
+              </h4>
             </div>
-            <div className="right">
-              <h2>Cart Totals</h2>
-              <h3>
-                Total: <span style={{ color: "green" }}>{prices}</span>{" "}
-              </h3>
-              <button>Proceed To Checkout - </button>
+            <button className="offer">Amazing Offers on Checkout</button>
+
+            <div className="fetchdata">
+              <div className="left">
+                <div className="data">
+                  {/* <img></img> */}
+                  <h4>Product</h4>
+                  <h4>Price:{prices}</h4>
+                  <h4>Quantity:{elem.length}</h4>
+                  <h4>Subtotal</h4>
+                </div>
+                <button>UPGRADE CART</button>
+              </div>
+              <div className="right">
+                <h2>Cart Totals</h2>
+                <h3>
+                  Total: <span style={{ color: "green" }}>{prices}</span>{" "}
+                </h3>
+                <button>Proceed To Checkout - </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        {elem.map((elm) => (
-          <CartItems
-            elem={elm}
-            key={elm.id}
-            handlebtn={handlebtn}
-            handleDelet={handleDelet}
-          />
-        ))}
-      </div>
-    </Grid>
+        <div>
+          {elem.map((elm) => (
+            <CartItems
+              elem={elm}
+              key={elm.id}
+              handlebtn={handlebtn}
+              handleDelet={handleDelet}
+            />
+          ))}
+        </div>
+      </Grid>
+    </>
   );
 };
 

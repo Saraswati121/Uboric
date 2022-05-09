@@ -11,7 +11,8 @@ const Menu = () => {
       style={{ display: "flex", justifyContent: "center", gap: "30px" }}
     >
       <Link style={{ textDecoration: "none", color: "black" }} to="/">
-        {/* <div onClick="window.location.reload();">Home</div> */}Home
+        {/* <div onClick="window.location.reload();">Home</div> */}
+        <div> HOME</div>
       </Link>
       <Link style={{ textDecoration: "none", color: "black" }} to="/mens">
         <div>
@@ -20,11 +21,10 @@ const Menu = () => {
         </div>
       </Link>
       <Link style={{ textDecoration: "none", color: "black" }} to="/womens">
-        {" "}
         <div>WOMENS</div>
       </Link>
       <Link style={{ textDecoration: "none", color: "black" }} to="/chappal">
-        <div>Shoes</div>
+        <div>FOOTWARE</div>
       </Link>
       {/* <Link style={{ textDecoration: "none", color: "black" }} to="/merchant">
         <div>Merchant/Bulk Order</div>

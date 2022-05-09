@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "../category/style/mens.styled";
-import { Buttons, Image, Subutton } from "./cart.styled";
+import { Buttons, Head, Image, Subutton } from "./cart.styled";
 
 const CartItems = ({ elem, handlebtn, handleDelet }) => {
   //   console.log(elem.id);
@@ -9,7 +9,7 @@ const CartItems = ({ elem, handlebtn, handleDelet }) => {
       <div>
         <Image src={elem.img} />
       </div>
-      <div>
+      <Head>
         <div>
           Product-Name:{" "}
           <span style={{ fontSize: "20px", textTransform: "capitalize" }}>
@@ -35,7 +35,7 @@ const CartItems = ({ elem, handlebtn, handleDelet }) => {
         <div style={{ height: "20px" }}>
           <Buttons onClick={() => handleDelet(elem.id)}>Remove</Buttons>
         </div>
-      </div>
+      </Head>
     </Grid>
   );
 };
