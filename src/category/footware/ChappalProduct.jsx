@@ -1,29 +1,29 @@
-import React, { useState, useEffect } from 'react'
-import { Data } from '../Api/data'
-import Datamap from './Datamap'
-import { Product, Flex } from './styled'
-import Productcatagory from './Productcatagory'
-import Nodata from './Nodata'
+import React, { useState, useEffect } from "react";
+import { Data } from "../Api/data";
+import Datamap from "./Datamap";
+import { Product, Flex } from "./styled";
+import Productcatagory from "./Productcatagory";
+import Nodata from "./Nodata";
 const ChappalProduct = () => {
-  let [data, setElem] = useState([])
+  let [data, setElem] = useState([]);
   const filterdata = (data) => {
-    let datas = Data.filter((ele) => ele.price < data)
+    let datas = Data.filter((ele) => ele.price < data);
     // console.log(datas);
-    setElem(datas)
-  }
+    setElem(datas);
+  };
   useEffect(() => {
-    setElem(Data)
-  }, [])
-  console.log(data)
+    setElem(Data);
+  }, []);
+  console.log(data);
   return (
     <>
       <hr />
       <h1
         style={{
-          color: 'green',
-          textDecoration: 'underline',
-          fontFamily: 'sans-serif',
-          letterSpacing: '5px',
+          color: "green",
+          textDecoration: "underline",
+          fontFamily: "sans-serif",
+          letterSpacing: "5px",
         }}
       >
         Slipper
@@ -43,7 +43,7 @@ const ChappalProduct = () => {
         )}
       </Flex>
     </>
-  )
-}
+  );
+};
 
-export default ChappalProduct
+export default ChappalProduct;

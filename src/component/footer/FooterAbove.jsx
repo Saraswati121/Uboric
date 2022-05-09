@@ -1,10 +1,13 @@
+<<<<<<< Updated upstream
 import React from 'react'
 import Styled from "../Navbar/Style.module.css" 
+=======
+import React from "react";
+import Styled from "./Style.module.css";
+>>>>>>> Stashed changes
 const FooterAbove = () => {
   return (
-    
-        <div>
-        
+    <div>
       <div id={Styled.footertop}>
         <div>
           <h2>What Our Customer Says</h2>
@@ -21,7 +24,8 @@ const FooterAbove = () => {
           </div>
           <div id={Styled.txtf}>
             Very big range of products and the services are very fast. i ordered
-            footwear and they delivered very quick.<br />
+            footwear and they delivered very quick.
+            <br />
             <br />
             <br />
             <br />
@@ -42,13 +46,12 @@ const FooterAbove = () => {
             ⭐⭐⭐⭐ -Coustomer
           </div>
         </div>
-        <div >
+        <div>
           <button id={Styled.bttn}>Add Your Review</button>
         </div>
       </div>
     </div>
-    
-  )
-}
+  );
+};
 
-export default FooterAbove
+export default FooterAbove;

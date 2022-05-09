@@ -1,9 +1,9 @@
 import React from "react";
-import './slide.css'
+import "./slide.css";
 const colors = [
   "https://www.uboric.com/wp-content/uploads/2021/11/grocery.jpg",
   "https://www.uboric.com/wp-content/uploads/2021/11/health-care.jpg",
-  "https://www.uboric.com/wp-content/uploads/2021/11/clothing.jpg"
+  "https://www.uboric.com/wp-content/uploads/2021/11/clothing.jpg",
 ];
 const delay = 3000;
 // "#0088FE", "#00C49F", "#FFBB28"
@@ -40,12 +40,8 @@ export function Slide() {
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         {colors.map((backgroundColor, index) => (
-          <div
-            className="slide"
-            key={index}
-            style={{ backgroundColor }}
-          >
-            <img src={backgroundColor}/>
+          <div className="slide" key={index} style={{ backgroundColor }}>
+            <img src={backgroundColor} />
           </div>
         ))}
       </div>
@@ -59,8 +55,8 @@ export function Slide() {
               setIndex(idx);
             }}
           > */}
-            {/* <img src="" alt="" /> */}
-          {/* </div>
+      {/* <img src="" alt="" /> */}
+      {/* </div>
         ))}
       </div> */}
     </div>

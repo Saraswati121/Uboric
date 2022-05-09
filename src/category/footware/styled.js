@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 export const Product = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 300px);
@@ -9,7 +9,7 @@ export const Product = styled.div`
   justifycontent: space-between;
   margin-top: 30px;
   font-family: sans-serif;
-`
+`;
 export const Product1 = styled.div`
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   margin-left: 30px;
@@ -18,11 +18,11 @@ export const Product1 = styled.div`
     transform: scale(1.05);
     transition: 0.25s;
   }
-`
+`;
 export const Imag = styled.img`
   height: 200px;
   width: 250px;
-`
+`;
 export const Button = styled.button`
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
     rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
@@ -43,11 +43,11 @@ export const Button = styled.button`
     font-size: 19px;
     font-weight: 700;
   }
-`
+`;
 export const Flex = styled.div`
   display: flex;
   margin-top: 100px;
-`
+`;
 export const P = styled.p`
   position: absolute;
   left: 5px;
@@ -58,4 +58,4 @@ export const P = styled.p`
   padding: 5px;
   color: white;
   po
-`
+`;

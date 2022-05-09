@@ -1,29 +1,29 @@
-import React, { useState } from 'react'
-import './style.css'
+import React, { useState } from "react";
+import "./style.css";
 const Productcatagory = ({ filterdata }) => {
-  const [data, setData] = useState(1000)
+  const [data, setData] = useState(1000);
   const handlechange = (e) => {
     // console.log(e.target.value);
-    setData(e.target.value)
-    filterdata(data)
-  }
+    setData(e.target.value);
+    filterdata(data);
+  };
   return (
     <>
-      <h2 style={{ letterSpacing: '5px' }}>By Prize</h2>
+      <h2 style={{ letterSpacing: "5px" }}>By Prize</h2>
       <div
         style={{
-          height: '50px',
-          width: '200px',
-          marginLeft: '40px',
+          height: "50px",
+          width: "200px",
+          marginLeft: "40px",
           boxShadow:
-            'rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px',
-          borderRadius: '10px',
+            "rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px",
+          borderRadius: "10px",
         }}
       >
         <label htmlFor="">
           0
           <input
-            style={{ marginTop: '20px', fontSize: '20px' }}
+            style={{ marginTop: "20px", fontSize: "20px" }}
             type="range"
             min="500"
             max="2000"
@@ -36,9 +36,9 @@ const Productcatagory = ({ filterdata }) => {
       </div>
       <h2
         style={{
-          textAlign: 'start',
-          marginLeft: '20px',
-          fontFamily: 'sans-serif',
+          textAlign: "start",
+          marginLeft: "20px",
+          fontFamily: "sans-serif",
         }}
       >
         Product Category
@@ -118,7 +118,7 @@ const Productcatagory = ({ filterdata }) => {
       </div>
       <br />
       <span></span>
-      <h2 style={{ textAlign: 'start', marginLeft: '20px' }}>By Size</h2>
+      <h2 style={{ textAlign: "start", marginLeft: "20px" }}>By Size</h2>
       <div className="productcatagory">
         <form action="">
           <label htmlFor="">
@@ -172,7 +172,7 @@ const Productcatagory = ({ filterdata }) => {
         </form>
       </div>
       <br />
-      <h2 style={{ textAlign: 'start', marginLeft: '20px' }}>By Color</h2>
+      <h2 style={{ textAlign: "start", marginLeft: "20px" }}>By Color</h2>
       <div className="productcatagory">
         <form action="">
           <label htmlFor="">
@@ -232,7 +232,7 @@ const Productcatagory = ({ filterdata }) => {
         </form>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Productcatagory
+export default Productcatagory;
