@@ -7,6 +7,7 @@ import Menu from "./Menu";
 import Baneer from "./Baneer";
 import Styled from "./Style.module.css";
 import { Link } from "react-router-dom";
+import MainRoutes from "./MainRoutes";
 
 const NavBarStyled = styled.div`
   width: 100%;
@@ -31,66 +32,67 @@ const Navinput = styled.input`
 
 const Navbar = () => {
   return (
-    <div>
-     
-      <NavBarStyled style={{ padding: "10px" }}>
-        <div style={{ padding: "20px" }}>
-          <div style={{ display: "flex" }}>
-            <Navinput type="text" placeholder="Search here..." />
-            <div>
-              <FaSearch
-                style={{
-                  border: "1px solid black",
-                  padding: "5px",
-                  backgroundColor: "rgb(66,66,66)",
-                  color: "white",
-                  cursor: "pointer",
-                }}
+    <>
+      <div>
+        <NavBarStyled style={{ padding: "10px" }}>
+          <div style={{ padding: "20px" }}>
+            <div style={{ display: "flex" }}>
+              <Navinput type="text" placeholder="Search here..." />
+              <div>
+                <FaSearch
+                  style={{
+                    border: "1px solid black",
+                    padding: "5px",
+                    backgroundColor: "rgb(66,66,66)",
+                    color: "white",
+                    cursor: "pointer",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+          <div style={{ marginLeft: "-460px", cursor: "pointer" }}>
+            <a href="/">
+              <Navimg
+                src="https://www.uboric.com/wp-content/uploads/2021/04/uboric.svg
+"
+                alt="praveen"
+              />
+            </a>
+          </div>
+          <div>
+            <div
+              style={{
+                marginLeft: "-150px",
+                gap: "20px",
+                display: "flex",
+                padding: "10px",
+                color: "rgb(30,81,108)",
+              }}
+            >
+              <Link to="/cart" style={{ color: "rgb(30,81,108)" }}>
+                <MdAccountCircle
+                  id={Styled.navdiv}
+                  style={{
+                    height: "60px",
+                    width: "35px",
+                    marginLeft: "-30px",
+                    cursor: "pointer",
+                  }}
+                />
+              </Link>
+              <FaCartPlus
+                id={Styled.navdiv}
+                style={{ height: "60px", width: "35px", cursor: "pointer" }}
               />
             </div>
           </div>
-        </div>
-        <div style={{ marginLeft: "-460px", cursor: "pointer" }}>
-          <a href="http://localhost:3000/">
-            <Navimg
-              src="https://www.uboric.com/wp-content/uploads/2021/04/uboric.svg
-"
-              alt="praveen"
-            />
-          </a>
-        </div>
+        </NavBarStyled>
         <div>
-          <div
-            style={{
-              marginLeft: "-150px",
-              gap: "20px",
-              display: "flex",
-              padding: "10px",
-              color: "rgb(30,81,108)",
-            }}
-          >
-            <Link to="cart" style={{ color: "rgb(30,81,108)" }}>
-              <MdAccountCircle
-                id={Styled.navdiv}
-                style={{
-                  height: "60px",
-                  width: "35px",
-                  marginLeft: "-30px",
-                  cursor: "pointer",
-                }}
-              />
-            </Link>
-            <FaCartPlus
-              id={Styled.navdiv}
-              style={{ height: "60px", width: "35px", cursor: "pointer" }}
-            />
-          </div>
+          <Menu />
         </div>
-      </NavBarStyled>
-      <div>
-        <Menu />
       </div>
-    </div>
+    </>
   );
 };
 

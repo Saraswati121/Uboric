@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "../mens.styled";
+import { Grid } from "../category/style/mens.styled";
 import { Buttons, Image, Subutton } from "./cart.styled";
 
 const CartItems = ({ elem, handlebtn, handleDelet }) => {

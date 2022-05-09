@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Product, H1, Grid } from "./mens.styled";
+import { Product, H1, Grid } from "../style/mens.styled";
 import { SB } from "../api/data";
-import MentsItem from "./MentsItem";
-import Productcatagory from "./navbar/Productcatagory";
+import MentsItem from "../card/MentsItem";
+import Productcatagory from "../card/Productcatagory";
 const MenSb = () => {
   let [elem, setElem] = useState([]);
   const filterdata = (data) => {

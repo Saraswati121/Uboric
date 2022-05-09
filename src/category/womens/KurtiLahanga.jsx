@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Lahnga } from "../../api/data";
-import { Product, H1, Grid } from "../mens.styled";
-import MentsItem from "../MentsItem";
-import Productcatagory from "../navbar/Productcatagory";
+import { Lahnga } from "../api/data";
+import { Product, H1, Grid } from "../style/mens.styled";
+import MentsItem from "../card/MentsItem";
+import Productcatagory from "../card/Productcatagory";
 const KurtiLahanga = () => {
   let [elem, setElem] = useState([]);
   const filterdata = (data) => {

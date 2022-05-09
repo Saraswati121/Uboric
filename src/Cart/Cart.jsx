@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 // import { Navigate } from "react-router-dom";
-import "./cart.css";
+// import "./cart.css";
 import CartItems from "./CartItems";
-import { Grid } from "../mens.styled";
+import { Grid } from "../category/style/mens.styled";
 const Cart = () => {
   const [elem, setElem] = useState([]);
   const [count, setCount] = useState(0);

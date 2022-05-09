@@ -11,21 +11,24 @@ const Menu = () => {
       style={{ display: "flex", justifyContent: "center", gap: "30px" }}
     >
       <Link style={{ textDecoration: "none", color: "black" }} to="/">
-        <div onClick="window.location.reload();">Home</div>
+        {/* <div onClick="window.location.reload();">Home</div> */}Home
       </Link>
-      <Link style={{ textDecoration: "none", color: "black" }} to="/category">
+      <Link style={{ textDecoration: "none", color: "black" }} to="/mens">
         <div>
-          Category
-          <IoMdArrowDropdown style={{ marginBottom: "-5px" }} />
+          MENS
+          {/* <IoMdArrowDropdown style={{ marginBottom: "-5px" }} /> */}
         </div>
       </Link>
-      <Link style={{ textDecoration: "none", color: "black" }} to="/coustomer">
+      <Link style={{ textDecoration: "none", color: "black" }} to="/womens">
         {" "}
-        <div>Customer/Guest login</div>
+        <div>WOMENS</div>
       </Link>
-      <Link style={{ textDecoration: "none", color: "black" }} to="/merchant">
+      <Link style={{ textDecoration: "none", color: "black" }} to="/chappal">
+        <div>Shoes</div>
+      </Link>
+      {/* <Link style={{ textDecoration: "none", color: "black" }} to="/merchant">
         <div>Merchant/Bulk Order</div>
-      </Link>
+      </Link> */}
       <Link style={{ textDecoration: "none", color: "black" }} to="/seller">
         <div>Become A Seller</div>
       </Link>

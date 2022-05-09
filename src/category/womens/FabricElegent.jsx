@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Fabric } from "../../api/data";
-import { Product, H1, Grid } from "../mens.styled";
-import MentsItem from "../MentsItem";
-import Productcatagory from "../navbar/Productcatagory";
+import { Fabric } from "../api/data";
+import { Product, H1, Grid } from "../style/mens.styled";
+import MentsItem from "../card/MentsItem";
+import Productcatagory from "../card/Productcatagory";
 const FabricElegent = () => {
   let [elem, setElem] = useState([]);
   const filterdata = (data) => {

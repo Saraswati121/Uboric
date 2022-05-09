@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, H, Img } from "../mens.styled";
+import { Grid, H, Img } from "../style/mens.styled";
 // import {  useSelector } from "react-redux";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import KurtiLahanga from "./KurtiLahanga";
@@ -7,11 +7,13 @@ import KurtiLahanga from "./KurtiLahanga";
 import Tunics from "./Tunics";
 import PatolaDupatta from "./PatolaDupatta";
 import FabricElegent from "./FabricElegent";
+import Navbar from "../../component/Navbar/Navbar";
 
 const Mens = () => {
   const navigate = useNavigate();
   return (
     <div>
+      <Navbar />
       <Grid>
         <div style={{ margin: "auto", fontSize: "35px" }}>
           Womens Category➡️

@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 as uuid } from "uuid";
-import { Button, P, Element, Price } from "./mens.styled";
+import { Button, P, Element, Price } from "../style/mens.styled";
 const MentsItem = ({ elem }) => {
   let offers = elem.offer.split(""); //"[-,5,7,%]"
   offers.pop(); //"[-,5,7]"

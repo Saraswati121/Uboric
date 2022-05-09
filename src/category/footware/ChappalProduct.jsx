@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Data } from "../Api/data";
+import { Data } from "../footware/data/data";
 import Datamap from "./Datamap";
 import { Product, Flex } from "./styled";
 import Productcatagory from "./Productcatagory";
 import Nodata from "./Nodata";
+import Navbar from "../../component/Navbar/Navbar";
 const ChappalProduct = () => {
   let [data, setElem] = useState([]);
   const filterdata = (data) => {
@@ -14,9 +15,10 @@ const ChappalProduct = () => {
   useEffect(() => {
     setElem(Data);
   }, []);
-  console.log(data);
+  // console.log(data);
   return (
     <>
+      <Navbar />
       <hr />
       <h1
         style={{
@@ -34,8 +36,8 @@ const ChappalProduct = () => {
         </div>
         {data.length ? (
           <Product>
-            {data.map((data) => (
-              <Datamap data={data} />
+            {data.map((data, ind) => (
+              <Datamap data={data} key={ind} />
             ))}
           </Product>
         ) : (

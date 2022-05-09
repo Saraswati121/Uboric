@@ -1,16 +1,18 @@
 import React from "react";
-import { Img, H, Grid } from "./mens.styled";
+import { Img, H, Grid } from "../style/mens.styled";
 // import {  useSelector } from "react-redux";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import MenSb from "./MenSb";
 import Shirt from "./Shirt";
 import Tshirt from "./Tshirt";
 import Trunks from "./Trunks";
-import Productcatagory from "./navbar/Productcatagory";
+import Navbar from "../../component/Navbar/Navbar";
+// import Productcatagory from "./navbar/Productcatagory";
 const Mens = () => {
   const navigate = useNavigate();
   return (
     <div>
+      <Navbar />
       <Grid>
         <div style={{ margin: "auto", fontSize: "40px" }}>Mens Catagory➡️</div>
         <div

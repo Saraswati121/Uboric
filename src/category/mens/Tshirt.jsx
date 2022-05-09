@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Product, H1, Grid } from "./mens.styled";
+import { Product, H1, Grid } from "../style/mens.styled";
 import { Tshirts } from "../api/data";
-import MentsItem from "./MentsItem";
-import Productcatagory from "./navbar/Productcatagory";
-import Nodata from "./navbar/Nodata";
+import MentsItem from "../card/MentsItem";
+import Productcatagory from "../card/Productcatagory";
+import Nodata from "../card/Nodata";
 const Tshirt = () => {
   const [elem, setElem] = useState([]);
   const filterdata = (data) => {

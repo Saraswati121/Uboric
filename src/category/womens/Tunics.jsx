@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Tunic } from "../../api/data";
-import { Grid, H1, Product } from "../mens.styled";
-import MentsItem from "../MentsItem";
-import Productcatagory from "../navbar/Productcatagory";
+import { Tunic } from "../api/data";
+import { Product, H1, Grid } from "../style/mens.styled";
+import MentsItem from "../card/MentsItem";
+import Productcatagory from "../card/Productcatagory";
 const Tunics = () => {
   let [elem, setElem] = useState([]);
   const filterdata = (data) => {

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import { Product, H1, Grid } from "./mens.styled";
+import { Product, H1, Grid } from "../style/mens.styled";
 import { shirt } from "../api/data";
-import MentsItem from "./MentsItem";
-import Productcatagory from "./navbar/Productcatagory";
-import Nodata from "./navbar/Nodata";
+import MentsItem from "../card/MentsItem";
+import Productcatagory from "../card/Productcatagory";
+import Nodata from "../card/Nodata";
 
 const Shirt = () => {
   const [elem, setElem] = useState([]);
