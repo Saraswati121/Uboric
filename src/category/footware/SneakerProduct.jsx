@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Sneaker } from "../Api/data";
+import { Sneaker } from "../footware/data/data";
 import Sneakermap from "./Sneakermap";
 import { Product, Product1, Flex } from "./styled";
 import Productcatagory from "./Productcatagory";
