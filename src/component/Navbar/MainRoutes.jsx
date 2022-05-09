@@ -18,7 +18,7 @@ import Cart from '../Pages/Cart'
 import Terms from '../Pages/Terms'
 import Privecy from '../Pages/Privecy'
 import Shipping from '../Pages/Shipping'
-
+import ChappalProduct from '../../category/footware/ChappalProduct';
 
 
 const MainRoutes = () => {
@@ -26,7 +26,6 @@ const MainRoutes = () => {
     <div>
         <Baneer/>
       <Navbar/>
-      {/* <Home/> */}
         <Routes>
           <Route path='http://localhost:3000/' element={<Home/>}/>
           <Route path='category' element={<Category/>}/>
@@ -38,6 +37,7 @@ const MainRoutes = () => {
           <Route path='terms' element={<Terms/>}/>
           <Route path='privecy' element={<Privecy/>}/>
           <Route path='shipping' element={<Shipping/>}/>
+          <Route path="casual"  element={<ChappalProduct/>}/>
         </Routes>
         <Home/>
         <FooterAbove/>

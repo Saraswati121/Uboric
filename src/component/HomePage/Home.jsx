@@ -242,6 +242,8 @@ export const Home = () => {
         <h3> ✔ Multiple Payment Options:</h3>
         <h3> ✔ Order History:</h3>
       </div>
+
+      
     </div>
   );
 };

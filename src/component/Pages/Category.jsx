@@ -1,6 +1,8 @@
         import React from 'react'
         import styled from "styled-components"
+        import { Routes, Route, Link} from "react-router-dom";
         import { IoMdArrowDropright } from 'react-icons/io';
+         
 
 
         const Catediv = styled.div`
@@ -32,7 +34,7 @@
                 <div style={{fontWeight:"bold",padding:"30px"}}>
                     Foot Wear
                     <p>Men's footwear</p>
-                    <Para>Clasual Chappels/Slippers</Para>
+                 <Link  to="/category/Casual" > <Para>Clasual Chappels/Slippers</Para> </Link>
                     <Para>Clasual Sandels</Para>
                     <Para>Clasual Party Shoes</Para>
                     <Para>Chappel/Slippers</Para>

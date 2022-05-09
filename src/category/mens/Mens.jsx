@@ -7,6 +7,7 @@ import Shirt from "./Shirt";
 import Tshirt from "./Tshirt";
 import Trunks from "./Trunks";
 import Productcatagory from "./navbar/Productcatagory";
+
 const Mens = () => {
   const navigate = useNavigate();
   return (

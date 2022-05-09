@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Data } from "../Api/data";
+import { Data } from "../footware/data/data";
 import Datamap from "./Datamap";
 import { Product, Flex } from "./styled";
 import Productcatagory from "./Productcatagory";
