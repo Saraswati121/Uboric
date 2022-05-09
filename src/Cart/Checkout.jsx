@@ -40,6 +40,8 @@ const Checkout = () => {
     } catch (err) {
       console.log(err);
     }
+
+    navigate("/");
   };
   return (
     <div className="checkout">
