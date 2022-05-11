@@ -1,4 +1,4 @@
-UBORIC CLONE
+#UBORIC CLONE
 
 INTRODUCTION : We would love to share our experience of working on a project “UBORIC”-one of India’s largest E-commerce online shoping website assigned to us by Masai School.It is basically a product website where you can find best branded clothe's,FootWare,Kitchen ware,Spices and appliances also.You will also get Electonics,women make-up and men’s product here etc.
 
