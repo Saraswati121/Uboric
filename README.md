@@ -19,20 +19,19 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
 
 ## Steps to navigate the website:
 <!-- <hr> -->
-- On the Landing Page navbar right side , user can click on the Sign In or Create an Account
+- On the Landing Page navbar right side , user can click on the Sign In or Create an Account and Cart logo
 - Once the user has logged in, they are taken back to the Landing Page.
-- On the top nav-bar, the user can navigate to the following categories: platform, to open the platform page
-- On the platform dropdown 
-  - On clicking on platform 'Quick View' all content. Clicking on any content , the user will be shown the details of the submaenu along with the option .
-- On the Product dropdown 
-  - On clicking on Product 'Quick View'  content skills & flow. Clicking on any content , the user will be shown the details of the submaenu along with the option.
-- On the Rsources dropdown 
-  - On clicking on Resources 'Quick View'  all content. Clicking on any content , the user will be shown the details of the submaenu along with the option.
-- On the for Idividual 
-  - On clicking on 'for individual' shown all content in a single page all about individual colaberation 
-- On try for free 
-  - The user can get trial for some day after filling terms&condition of company.
-
+- On the top nav-bar, the user can navigate to the following categories: mens womens footware and seller
+- On the Mens/Womens
+  - On clicking on Mens 'Quick View' all content. Clicking on any content , the user will be shown the details of the submaenu along with the option .
+- On the Footware Catagory
+  - On clicking on Footware 'Quick View'  content skills & flow. Clicking on any content , the user will be shown the details of the submaenu along with the option.
+- On the Became a seller  
+  - On clicking on "Become a seller" 'Quick View'   a form after fillinfg the form and qulify criteria you will became a seller.
+- On the Add to cart Logo 
+  - On clicking on  Logo you redirected to cart page and you can manage your cart Item inside the cart by simly provide button.
+- On Sign in /Sign up  
+  - The user can get sign in if they have own acccount otherwise use can make his own account by simply fill form in sign Up parts of the page
   ## screenshorts
   #### these are some screenshort for overview website
   -  platform where mens category available
@@ -53,7 +52,7 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
    ## Authors
 
   1. [Shashi Ranjan](https://github.com/Sranjan4321) 
-  2. [Karina khairnar](https://github.com/karinakhairanr) 
+  2. [Karina khairnar](https://github.com/karinakhairnar) 
   3. [prabina Chaudhary](https://github.com/Prabin8144) 
   4. [Rajendra Nali]()
   5. [Saraswati Panda](https://github.com/saraswati121)
