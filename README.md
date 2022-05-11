@@ -41,7 +41,7 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
  ![Screenshot (71)](https://user-images.githubusercontent.com/94555507/167802134-dc07c785-b2d3-40dc-8a4c-f0c339107f05.png)
   - there are simple sign up or sign in process
 ![Screenshot (73)](https://user-images.githubusercontent.com/94555507/167802758-88eb8f14-67c1-4fa1-8073-b29f840fca9d.png)
- - sign in page /we can retrieve our password by forget password
+ - sign in page /Resister pages for new costumor
  ![Screenshot (72)](https://user-images.githubusercontent.com/94555507/167802820-1e11f3a5-c493-414f-985c-660bff3d503d.png)
   - simple ui for cart and place order
  ![Screenshot (70)](https://user-images.githubusercontent.com/94555507/167801867-cfb869c8-f909-4ebe-8501-4e97e799dc4e.png)
@@ -53,10 +53,10 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
    ## Authors
 
   1. [Shashi Ranjan](https://github.com/Sranjan4321) 
-  2. [Roshan](https://github.com/roshan93190) 
-  3. [Rahul Sinha](https://github.com/arif841236/rahulsinha1996) 
-  4. [Chandu-Sarihaddu](https://github.com/Chandu-Sarihaddu)
-  5. [Rama Krushna Panda](https://github.com/ramakrushnapanda634)
+  2. [Karina khairnar](https://github.com/karinakhairanr) 
+  3. [prabina Chaudhary](https://github.com/Prabin8144) 
+  4. [Rajendra Nali]()
+  5. [Saraswati Panda](https://github.com/saraswati121)
   6. [Sambit Kumar Barik](https://github.com/sambitkumar10)
 
 
