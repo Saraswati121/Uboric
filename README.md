@@ -1,7 +1,6 @@
 # Uboric.com-clone
 construct week project(masai) uboric.com
-![Screenshot (68)](https://user-images.githubusercontent.com/94555507/167800146-1b17d648-5b15-4efb-867b-f71a0526844b.png)
-)
+![Screenshot (69)](https://user-images.githubusercontent.com/94555507/167800744-903e6eab-c759-48f5-a09c-4d3e2f074b63.png)
 On-demand training made simple.  training for individuals and businesses! Top-rated courses for developers & IT professionals. Start learning today! Role IQ. Hands-on Learning. Offline Access. Skill Assessments. Certification Prep. Expert-Led Courses. Cloud Labs.
 ## Technologies we used
 <!-- <hr> -->
@@ -15,8 +14,8 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
 <!-- --- -->
 - Login and logout functionality.
 - Navbar contains various categories.
-- On product page particular category products with skill and flow options displayed.
-- on purchaging plan there are standerd and premium.
+- On product page particular category products 
+- on purchaging ,you can simply click and pay
 
 ## Steps to navigate the website:
 <!-- <hr> -->
@@ -36,21 +35,20 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
 
   ## screenshorts
   #### these are some screenshort for overview website
-  -  platform dropdown content 
-  ![Screenshot (58)](https://user-images.githubusercontent.com/94555507/161411107-c0fd89a4-5f7a-4475-8916-91326d48a753.png)
-  - these are some trending technology for learning 
-  ![Screenshot (54)](https://user-images.githubusercontent.com/94555507/161410707-9c1164c1-9d13-42cb-852b-c90aa47ad3cc.png)
-  - public reviews about cources and websites 
-![Screenshot (56)](https://user-images.githubusercontent.com/94555507/161411029-baa67c18-00f3-4815-a732-8212dc5c12cb.png)
+  -  platform where mens category available
+  ![Screenshot (68)](https://user-images.githubusercontent.com/94555507/167801102-e97d0d14-db8f-4725-99ec-f650a0439441.png)
+  - these are some trending items for kitchen and other
+ ![Screenshot (71)](https://user-images.githubusercontent.com/94555507/167802134-dc07c785-b2d3-40dc-8a4c-f0c339107f05.png)
+  - there are simple sign up or sign in process
+![Screenshot (73)](https://user-images.githubusercontent.com/94555507/167802758-88eb8f14-67c1-4fa1-8073-b29f840fca9d.png)
  - sign in page /we can retrieve our password by forget password
- ![Screenshot (60)](https://user-images.githubusercontent.com/94555507/161411318-25a19c6c-f5f5-418b-a2f7-8725d8f0754b.png)
-  - footer with sticky navbar
- ![Screenshot (62)](https://user-images.githubusercontent.com/94555507/161411377-de82c775-4759-49cb-8a14-f3fc88b8d4c1.png)
+ ![Screenshot (72)](https://user-images.githubusercontent.com/94555507/167802820-1e11f3a5-c493-414f-985c-660bff3d503d.png)
+  - simple ui for cart and place order
+ ![Screenshot (70)](https://user-images.githubusercontent.com/94555507/167801867-cfb869c8-f909-4ebe-8501-4e97e799dc4e.png)
 
-   - Video Link: https://drive.google.com/file/d/1kbDa-YKKQUIBrszxAbvvAX1UuKTgdWsu/view?usp=sharing
-   - Netlify Link :https://cheerful-lebkuchen-890c5e.netlify.app/
-   
-   
+   - Video Link: https://drive.google.com/file/d/1yyuSdCYOey9mYWW8Klyfjd0RKTP4SRVS/view?usp=sharing
+   - Netlify Link :https://sensational-frangipane-c21793.netlify.app/
+   - Medium Link:https://medium.com/@karinakhairnar/uboric-com-clone-4543c72bbfe9
    
    ## Authors
 
@@ -62,4 +60,4 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
   6. [Sambit Kumar Barik](https://github.com/sambitkumar10)
 
 
-https://medium.com/@karinakhairnar/uboric-com-clone-4543c72bbfe9
+
