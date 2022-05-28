@@ -1,7 +1,7 @@
 # Uboric.com-clone
 construct week project(masai) uboric.com
 ![Screenshot (69)](https://user-images.githubusercontent.com/94555507/167800744-903e6eab-c759-48f5-a09c-4d3e2f074b63.png)
-On-demand training made simple.  training for individuals and businesses! Top-rated courses for developers & IT professionals. Start learning today! Role IQ. Hands-on Learning. Offline Access. Skill Assessments. Certification Prep. Expert-Led Courses. Cloud Labs.
+Uberic.com is a e-commerse website which provide groucery cloth mens womens garments and assaceries this is a high growing website 
 ## Technologies we used
 <!-- <hr> -->
 - HTML , CSS
