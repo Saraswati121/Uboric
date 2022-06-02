@@ -54,7 +54,7 @@ Uberic.com is a e-commerse website which provide groucery cloth mens womens garm
   1. [Shashi Ranjan](https://github.com/Sranjan4321) 
   2. [Karina khairnar](https://github.com/karinakhairnar) 
   3. [prabina Chaudhary](https://github.com/Prabin8144) 
-  4. [Rajendra Nali]()
+  4. [Rajendra Nali](https://github.com/rajendranali/)
   5. [Saraswati Panda](https://github.com/saraswati121)
   6. [Sambit Kumar Barik](https://github.com/sambitkumar10)
 
