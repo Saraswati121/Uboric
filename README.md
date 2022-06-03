@@ -7,7 +7,7 @@ Uberic.com is a e-commerse website which provide groucery cloth mens womens garm
 - HTML , CSS
 - Browser LocalStorage for Frontend
 
-- [Blog Link]()
+- [Blog Link](https://medium.com/@karinakhairnar/uboric-com-clone-4543c72bbfe9)
 
 
 ## Features 
